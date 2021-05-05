@@ -2,12 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import './index.css';
-import FirstComponent from './components/first-component.js';
+import Body from './components/body';
+import Navbar from './components/navbar.js';
+import Footer from './components/footer.js';
 
 function App() {
   return (
-    <div className="App">
-      <FirstComponent />
+    <div className="bg-gray-100">
+      <Navbar/>
+      <Body />
+      <Footer/>
     </div>
   );
 }
